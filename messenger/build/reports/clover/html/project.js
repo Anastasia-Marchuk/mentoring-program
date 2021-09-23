@@ -1,0 +1,2 @@
+processClover (  {"children":["com/epam/ld/module2/testing/","com/epam/ld/module2/testing/template/"],"name":"Clover database Fri Jun 18 2021 12:08:55 MSK","stats":{"CoveredBranches":2,"CoveredMethods":55.555557,"CoveredStatements":34.210526,"ErroneousTests":0,"FailingTests":0,"PassingTests":0,"PcErroneousTests":-1,"PcFailingTests":-1,"PcPassingTests":-1,"TestExecutionTime":0,"Tests":0,"TotalPercentageCovered":37.2549},"title":"messenger"}
+ ); 

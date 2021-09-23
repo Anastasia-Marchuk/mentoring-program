@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.6.1">
+<file name="/home/anastasia/EpamMentoringProgram/messenger/src/main/java/com/epam/ld/module2/testing/Client.java">
+</file>
+<file name="/home/anastasia/EpamMentoringProgram/messenger/src/main/java/com/epam/ld/module2/testing/MailServer.java">
+</file>
+<file name="/home/anastasia/EpamMentoringProgram/messenger/src/main/java/com/epam/ld/module2/testing/Messenger.java">
+</file>
+<file name="/home/anastasia/EpamMentoringProgram/messenger/src/main/java/com/epam/ld/module2/testing/template/Asker.java">
+</file>
+<file name="/home/anastasia/EpamMentoringProgram/messenger/src/main/java/com/epam/ld/module2/testing/template/Template.java">
+</file>
+<file name="/home/anastasia/EpamMentoringProgram/messenger/src/main/java/com/epam/ld/module2/testing/template/TemplateEngine.java">
+</file>
+</checkstyle>

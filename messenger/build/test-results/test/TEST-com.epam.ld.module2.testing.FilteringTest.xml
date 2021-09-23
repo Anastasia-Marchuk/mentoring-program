@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.epam.ld.module2.testing.FilteringTest" tests="3" skipped="1" failures="0" errors="0" timestamp="2021-06-18T09:08:55" hostname="EPBYBREW0003" time="0.004">
+  <properties/>
+  <testcase name="This is second test but with ORDER 3" classname="com.epam.ld.module2.testing.FilteringTest" time="0.002"/>
+  <testcase name="This is first test but with ORDER 2" classname="com.epam.ld.module2.testing.FilteringTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="This is third test but with ORDER 1" classname="com.epam.ld.module2.testing.FilteringTest" time="0.001"/>
+  <system-out><![CDATA[ADDRESS: Brest, Moskovskaja 330
+SEND TO: Brest, Moskovskaja 330
+Hello everybody (from message 1)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

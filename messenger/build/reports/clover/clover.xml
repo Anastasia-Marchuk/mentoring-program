@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1624007335657" clover="4.4.1">
+   <project name="messenger" timestamp="1624007335502">
+      <metrics coveredelements="38" complexity="28" loc="351" methods="18" classes="6" statements="76" packages="2" coveredconditionals="2" coveredmethods="10" elements="102" ncloc="164" files="6" conditionals="8" coveredstatements="26"/>
+      <package name="com.epam.ld.module2.testing">
+         <metrics coveredelements="14" complexity="17" loc="186" methods="11" classes="3" statements="52" coveredconditionals="0" coveredmethods="6" elements="67" ncloc="99" files="3" conditionals="4" coveredstatements="8"/>
+         <file path="/home/anastasia/EpamMentoringProgram/messenger/src/main/java/com/epam/ld/module2/testing/Messenger.java" name="Messenger.java">
+            <metrics coveredelements="8" coveredconditionals="0" complexity="12" loc="137" coveredmethods="2" methods="6" elements="59" classes="1" ncloc="80" statements="49" conditionals="4" coveredstatements="6"/>
+            <class name="Messenger">
+               <metrics coveredelements="8" coveredconditionals="0" complexity="12" coveredmethods="2" methods="6" elements="59" statements="49" conditionals="4" coveredstatements="6"/>
+            </class>
+            <line complexity="1" visibility="public" signature="Messenger(MailServer,TemplateEngine)" num="26" count="12" type="method"/>
+            <line num="28" count="12" type="stmt"/>
+            <line num="29" count="12" type="stmt"/>
+            <line complexity="2" visibility="public" signature="sendMessage(Client,Template) : void" num="38" count="8" type="method"/>
+            <line num="39" count="8" type="stmt"/>
+            <line num="40" count="8" type="stmt"/>
+            <line num="43" count="8" type="stmt"/>
+            <line num="44" count="8" type="stmt"/>
+            <line complexity="6" visibility="public" signature="main(String[]) : void" num="54" count="0" type="method"/>
+            <line num="56" count="0" type="stmt"/>
+            <line num="57" count="0" type="stmt"/>
+            <line num="59" count="0" type="stmt"/>
+            <line num="60" count="0" type="stmt"/>
+            <line num="61" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="61" type="cond"/>
+            <line num="62" count="0" type="stmt"/>
+            <line num="63" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="63" type="cond"/>
+            <line num="64" count="0" type="stmt"/>
+            <line num="65" count="0" type="stmt"/>
+            <line num="66" count="0" type="stmt"/>
+            <line num="67" count="0" type="stmt"/>
+            <line num="68" count="0" type="stmt"/>
+            <line num="69" count="0" type="stmt"/>
+            <line num="70" count="0" type="stmt"/>
+            <line num="71" count="0" type="stmt"/>
+            <line num="72" count="0" type="stmt"/>
+            <line num="73" count="0" type="stmt"/>
+            <line num="74" count="0" type="stmt"/>
+            <line num="75" count="0" type="stmt"/>
+            <line num="76" count="0" type="stmt"/>
+            <line num="78" count="0" type="stmt"/>
+            <line num="79" count="0" type="stmt"/>
+            <line num="80" count="0" type="stmt"/>
+            <line num="84" count="0" type="stmt"/>
+            <line complexity="1" visibility="private" signature="sendMessageFromConsole() : void" num="91" count="0" type="method"/>
+            <line num="92" count="0" type="stmt"/>
+            <line num="93" count="0" type="stmt"/>
+            <line num="94" count="0" type="stmt"/>
+            <line num="95" count="0" type="stmt"/>
+            <line num="97" count="0" type="stmt"/>
+            <line num="98" count="0" type="stmt"/>
+            <line num="99" count="0" type="stmt"/>
+            <line num="101" count="0" type="stmt"/>
+            <line num="102" count="0" type="stmt"/>
+            <line num="104" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="sendMessageFromFile(String,String) : void" num="113" count="0" type="method"/>
+            <line num="115" count="0" type="stmt"/>
+            <line num="117" count="0" type="stmt"/>
+            <line num="118" count="0" type="stmt"/>
+            <line num="119" count="0" type="stmt"/>
+            <line num="122" count="0" type="stmt"/>
+            <line num="123" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createClient(String) : Client" num="130" count="0" type="method"/>
+            <line num="131" count="0" type="stmt"/>
+            <line num="132" count="0" type="stmt"/>
+            <line num="133" count="0" type="stmt"/>
+         </file>
+         <file path="/home/anastasia/EpamMentoringProgram/messenger/src/main/java/com/epam/ld/module2/testing/Client.java" name="Client.java">
+            <metrics coveredelements="5" coveredconditionals="0" complexity="4" loc="32" coveredmethods="3" methods="4" elements="7" classes="1" ncloc="14" statements="3" conditionals="0" coveredstatements="2"/>
+            <class name="Client">
+               <metrics coveredelements="5" coveredconditionals="0" complexity="4" coveredmethods="3" methods="4" elements="7" statements="3" conditionals="0" coveredstatements="2"/>
+            </class>
+            <line complexity="1" visibility="public" signature="Client()" num="9" count="8" type="method"/>
+            <line complexity="1" visibility="public" signature="Client(String)" num="11" count="0" type="method"/>
+            <line num="12" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getAddresses() : String" num="20" count="24" type="method"/>
+            <line num="21" count="24" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setAddresses(String) : void" num="29" count="8" type="method"/>
+            <line num="30" count="8" type="stmt"/>
+         </file>
+         <file path="/home/anastasia/EpamMentoringProgram/messenger/src/main/java/com/epam/ld/module2/testing/MailServer.java" name="MailServer.java">
+            <metrics coveredelements="1" coveredconditionals="0" complexity="1" loc="17" coveredmethods="1" methods="1" elements="1" classes="1" ncloc="5" statements="0" conditionals="0" coveredstatements="0"/>
+            <class name="MailServer">
+               <metrics coveredelements="1" coveredconditionals="0" complexity="1" coveredmethods="1" methods="1" elements="1" statements="0" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="send(String,String) : void" num="14" count="8" type="method"/>
+         </file>
+      </package>
+      <package name="com.epam.ld.module2.testing.template">
+         <metrics coveredelements="24" complexity="11" loc="165" methods="7" classes="3" statements="24" coveredconditionals="2" coveredmethods="4" elements="35" ncloc="65" files="3" conditionals="4" coveredstatements="18"/>
+         <file path="/home/anastasia/EpamMentoringProgram/messenger/src/main/java/com/epam/ld/module2/testing/template/Template.java" name="Template.java">
+            <metrics coveredelements="11" coveredconditionals="0" complexity="4" loc="93" coveredmethods="2" methods="3" elements="15" classes="1" ncloc="27" statements="10" conditionals="2" coveredstatements="9"/>
+            <class name="Template">
+               <metrics coveredelements="11" coveredconditionals="0" complexity="4" coveredmethods="2" methods="3" elements="15" statements="10" conditionals="2" coveredstatements="9"/>
+            </class>
+            <line complexity="2" visibility="public" signature="Template(File)" num="22" count="8" type="method"/>
+            <line num="23" count="8" type="stmt"/>
+            <line num="24" count="8" type="stmt"/>
+            <line num="28" count="8" type="stmt"/>
+            <line num="29" count="8" type="stmt"/>
+            <line num="30" count="8" type="stmt"/>
+            <line falsecount="0" truecount="0" num="30" type="cond"/>
+            <line num="31" count="8" type="stmt"/>
+            <line num="33" count="8" type="stmt"/>
+            <line num="34" count="8" type="stmt"/>
+            <line complexity="1" visibility="public" signature="Template(String)" num="58" count="0" type="method"/>
+            <line num="59" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getMessage() : String" num="88" count="8" type="method"/>
+            <line num="89" count="8" type="stmt"/>
+         </file>
+         <file path="/home/anastasia/EpamMentoringProgram/messenger/src/main/java/com/epam/ld/module2/testing/template/TemplateEngine.java" name="TemplateEngine.java">
+            <metrics coveredelements="11" coveredconditionals="2" complexity="4" loc="31" coveredmethods="1" methods="1" elements="11" classes="1" ncloc="16" statements="8" conditionals="2" coveredstatements="8"/>
+            <class name="TemplateEngine">
+               <metrics coveredelements="11" coveredconditionals="2" complexity="4" coveredmethods="1" methods="1" elements="11" statements="8" conditionals="2" coveredstatements="8"/>
+            </class>
+            <line complexity="4" visibility="public" signature="generateMessage(Template,Client) : String" num="17" count="10" type="method"/>
+            <line num="18" count="10" type="stmt"/>
+            <line num="19" count="10" type="stmt"/>
+            <line num="21" count="10" type="stmt"/>
+            <line falsecount="8" truecount="2" num="21" type="cond"/>
+            <line num="22" count="2" type="stmt"/>
+            <line num="25" count="10" type="stmt"/>
+            <line num="26" count="8" type="stmt"/>
+            <line num="27" count="8" type="stmt"/>
+            <line num="29" count="8" type="stmt"/>
+         </file>
+         <file path="/home/anastasia/EpamMentoringProgram/messenger/src/main/java/com/epam/ld/module2/testing/template/Asker.java" name="Asker.java">
+            <metrics coveredelements="2" coveredconditionals="0" complexity="3" loc="41" coveredmethods="1" methods="3" elements="9" classes="1" ncloc="22" statements="6" conditionals="0" coveredstatements="1"/>
+            <class name="Asker">
+               <metrics coveredelements="2" coveredconditionals="0" complexity="3" coveredmethods="1" methods="3" elements="9" statements="6" conditionals="0" coveredstatements="1"/>
+            </class>
+            <line complexity="1" visibility="public" signature="Asker(String)" num="18" count="0" type="method"/>
+            <line num="19" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="Asker()" num="22" count="1" type="method"/>
+            <line num="23" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="ask(String) : String" num="31" count="0" type="method"/>
+            <line num="32" count="0" type="stmt"/>
+            <line num="33" count="0" type="stmt"/>
+            <line num="34" count="0" type="stmt"/>
+            <line num="35" count="0" type="stmt"/>
+         </file>
+      </package>
+   </project>
+   <testproject name="messenger" timestamp="1624007335502">
+      <metrics coveredelements="60" complexity="16" loc="252" methods="14" classes="2" statements="54" packages="1" coveredconditionals="2" coveredmethods="12" elements="70" ncloc="185" files="2" conditionals="2" coveredstatements="46"/>
+      <package name="com.epam.ld.module2.testing">
+         <metrics coveredelements="60" complexity="16" loc="252" methods="14" classes="2" statements="54" coveredconditionals="2" coveredmethods="12" elements="70" ncloc="185" files="2" conditionals="2" coveredstatements="46"/>
+         <file path="/home/anastasia/EpamMentoringProgram/messenger/src/test/java/com/epam/ld/module2/testing/FilteringTest.java" name="FilteringTest.java">
+            <metrics coveredelements="10" coveredconditionals="0" complexity="3" loc="76" coveredmethods="2" methods="3" elements="15" classes="1" ncloc="57" statements="12" conditionals="0" coveredstatements="8"/>
+            <class name="FilteringTest">
+               <metrics coveredelements="10" complexity="3" methods="3" testruns="2" statements="12" coveredconditionals="0" coveredmethods="2" elements="15" testfailures="0" testduration="0.001" conditionals="0" coveredstatements="8" testpasses="2"/>
+            </class>
+            <line complexity="1" visibility="package" signature="test() : void" num="33" count="0" type="method"/>
+            <line num="39" count="0" type="stmt"/>
+            <line num="40" count="0" type="stmt"/>
+            <line num="41" count="0" type="stmt"/>
+            <line num="42" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="givenTestMethodWithTempDirectory(Path) : void" num="45" testsuccess="true" count="1" testduration="0.001" type="method"/>
+            <line num="50" count="1" type="stmt"/>
+            <line num="52" count="1" type="stmt"/>
+            <line num="53" count="1" type="stmt"/>
+            <line num="55" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="testSendMessage() : void" num="61" testsuccess="true" count="1" testduration="0.0" type="method"/>
+            <line num="65" count="1" type="stmt"/>
+            <line num="66" count="1" type="stmt"/>
+            <line num="68" count="1" type="stmt"/>
+            <line num="69" count="1" type="stmt"/>
+         </file>
+         <file path="/home/anastasia/EpamMentoringProgram/messenger/src/test/java/com/epam/ld/module2/testing/MailServerTest.java" name="MailServerTest.java">
+            <metrics coveredelements="50" coveredconditionals="2" complexity="13" loc="176" coveredmethods="10" methods="11" elements="55" classes="1" ncloc="128" statements="42" conditionals="2" coveredstatements="38"/>
+            <class name="MailServerTest">
+               <metrics coveredelements="50" complexity="13" methods="11" testruns="8" statements="42" coveredconditionals="2" coveredmethods="10" elements="55" testfailures="0" testduration="0.012" conditionals="2" coveredstatements="38" testpasses="8"/>
+            </class>
+            <line complexity="1" visibility="public" signature="init() : void" num="42" count="1" type="method"/>
+            <line num="44" count="1" type="stmt"/>
+            <line num="45" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="cleanup() : void" num="48" count="1" type="method"/>
+            <line num="50" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="prepareBefore() : void" num="53" count="8" type="method"/>
+            <line num="55" count="8" type="stmt"/>
+            <line complexity="1" visibility="public" signature="prepareAfter() : void" num="58" count="8" type="method"/>
+            <line num="60" count="8" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testWithParametrizes(String) : void" num="64" count="3" type="method"/>
+            <line num="68" count="3" type="stmt"/>
+            <line num="69" count="3" type="stmt"/>
+            <line num="71" count="3" type="stmt"/>
+            <line num="75" count="3" type="stmt"/>
+            <line num="76" count="3" type="stmt"/>
+            <line complexity="2" visibility="package" signature="testDinamics() : Stream&lt;DynamicTest&gt;" num="80" testsuccess="true" count="1" testduration="0.001" type="method"/>
+            <line num="84" count="1" type="stmt"/>
+            <line num="85" count="1" type="stmt"/>
+            <line num="86" count="1" type="stmt"/>
+            <line num="88" count="1" type="stmt"/>
+            <line falsecount="1" truecount="3" num="88" type="cond"/>
+            <line num="89" count="3" type="stmt"/>
+            <line num="92" count="3" type="stmt"/>
+            <line num="93" count="3" type="stmt"/>
+            <line num="94" count="3" type="stmt"/>
+            <line num="97" count="3" type="stmt"/>
+            <line num="97" count="3" type="stmt"/>
+            <line num="98" count="3" type="stmt"/>
+            <line num="101" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="givenTestMethodWithTempDirectory(Path) : void" num="105" count="1" type="method"/>
+            <line num="109" count="1" type="stmt"/>
+            <line num="111" count="1" type="stmt"/>
+            <line num="112" count="1" type="stmt"/>
+            <line num="114" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="testSendMessage() : void" num="121" count="1" type="method"/>
+            <line num="124" count="1" type="stmt"/>
+            <line num="125" count="1" type="stmt"/>
+            <line num="126" count="1" type="stmt"/>
+            <line num="127" count="1" type="stmt"/>
+            <line complexity="1" visibility="package" signature="test() : void" num="131" count="0" type="method"/>
+            <line num="136" count="0" type="stmt"/>
+            <line num="137" count="0" type="stmt"/>
+            <line num="138" count="0" type="stmt"/>
+            <line num="139" count="0" type="stmt"/>
+            <line complexity="1" visibility="package" signature="testMailServerThrowsException() : void" num="154" count="1" type="method"/>
+            <line num="158" count="1" type="stmt"/>
+            <line num="159" count="1" type="stmt"/>
+            <line num="160" count="1" type="stmt"/>
+            <line complexity="2" visibility="public" signature="testMailServerThrowsException2() : void" num="164" count="1" type="method"/>
+            <line num="167" count="1" type="stmt"/>
+            <line num="168" count="1" type="stmt"/>
+            <line num="169" count="1" type="stmt"/>
+            <line num="170" count="1" type="stmt"/>
+            <line num="172" count="1" type="stmt"/>
+         </file>
+      </package>
+   </testproject>
+</coverage>

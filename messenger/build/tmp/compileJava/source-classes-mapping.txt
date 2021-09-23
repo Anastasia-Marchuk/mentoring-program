@@ -1,0 +1,12 @@
+com/epam/ld/module2/testing/template/Template.java
+ com.epam.ld.module2.testing.template.Template
+com/epam/ld/module2/testing/Client.java
+ com.epam.ld.module2.testing.Client
+com/epam/ld/module2/testing/MailServer.java
+ com.epam.ld.module2.testing.MailServer
+com/epam/ld/module2/testing/Messenger.java
+ com.epam.ld.module2.testing.Messenger
+com/epam/ld/module2/testing/template/TemplateEngine.java
+ com.epam.ld.module2.testing.template.TemplateEngine
+com/epam/ld/module2/testing/template/Asker.java
+ com.epam.ld.module2.testing.template.Asker

@@ -1,0 +1,8 @@
+Optional[void com.epam.ld.module2.testing.MailServerTest.givenTestMethodWithTempDirectory(java.nio.file.Path) throws java.io.IOException]	=>	PASSED
+Optional[public final void com.epam.ld.module2.testing.MailServerTest.testSendMessage() throws java.io.IOException]	=>	PASSED
+Optional[java.util.stream.Stream com.epam.ld.module2.testing.MailServerTest.testDinamics() throws java.io.IOException]	=>	PASSED
+Optional[public void com.epam.ld.module2.testing.MailServerTest.testMailServerThrowsException2()]	=>	PASSED
+Optional[void com.epam.ld.module2.testing.MailServerTest.testMailServerThrowsException()]	=>	PASSED
+Optional[void com.epam.ld.module2.testing.MailServerTest.testWithParametrizes(java.lang.String) throws java.io.IOException]	=>	PASSED
+Optional[void com.epam.ld.module2.testing.MailServerTest.testWithParametrizes(java.lang.String) throws java.io.IOException]	=>	PASSED
+Optional[void com.epam.ld.module2.testing.MailServerTest.testWithParametrizes(java.lang.String) throws java.io.IOException]	=>	PASSED

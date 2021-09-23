@@ -1,0 +1,8 @@
+com/epam/ld/module2/testing/ResultFileAfterTesting.java
+ com.epam.ld.module2.testing.ResultFileAfterTesting
+com/epam/ld/module2/testing/MockTesting.java
+ com.epam.ld.module2.testing.MockTesting
+com/epam/ld/module2/testing/MailServerTest.java
+ com.epam.ld.module2.testing.MailServerTest
+com/epam/ld/module2/testing/FilteringTest.java
+ com.epam.ld.module2.testing.FilteringTest
